@@ -1,0 +1,117 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        
+
+\usepackage{verbatim}
+\usepackage[english]{babel}
+%\usepackage{hyperref}
+\moderncvstyle{casual}                             
+\moderncvcolor{blue}                               
+%\nopagenumbers{}                                  
+\usepackage[utf8]{inputenc}                       
+\usepackage[scale=0.75]{geometry}
+\input{i18n/en}
+
+% Personal Data
+\name{\FirstName}{\LastName}
+\title{\EngineeringTitle}                               
+\address{\LocationCity}{\LocationCountry}
+\phone[mobile]{+52~1~5543654629}                
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{diegocuehdz@gmail.com}                            
+%\homepage{diegocue.com}                     
+\social[linkedin]{diegocuehdz}                       
+%\social[twitter]{diegocuehdz}
+\social[github]{diegocuehdz}       
+\quote{\Quote}
+
+\begin{document}
+
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+%\date{January 01, 1984}
+%\opening{Dear Sir or Madam,}
+%\closing{Yours faithfully,}
+%\enclosure[Attached]{curriculum vit\ae{}}        
+%\makelettertitle
+
+%Meter el texto y la carta a escribir. 
+
+%\makeletterclosing
+%\clearpage
+
+\makecvtitle
+
+%Education
+\section{\TitleEducation}
+\cventry{\RangeEducationITAM}{\DescriptionEducationAppliedMath}{\DescriptionEducationITAM}{}{}{}
+
+% Experience 
+\section{\PExperienceTitle}
+\subsection{\PExperienceSubTitle}
+\cventry{\TechLeadMobileAppsRange}{\TechLeadMobileAppsDescription}{\TelevisaUnivision}{\LocationCity, \LocationCountry}{}{}
+\cventry{\PExpArchIOSRange}{\PExpArchIOSDescription}{\ADomicilio}{\LocationCity, \LocationCountry}{}{}
+\cventry{\PExpSeniorIOSDevRange}{\PExpSeniorIOSDevDescription}{\Tresco}{\LocationCity, \LocationCountry}{}{}
+\cventry{\PExpSeniorNodeDevRange}{\PExpSeniorNodeDevDescription}{\Freelance}{}{}{}
+\cventry{\PExpJuniorDotNetRange}{\PExpJuniorDotNetDescription}{\Tresco}{}{}{}
+\cventry{\PExpMidIOSDeveloperRange}{\PExpMidIOSDeveloperDescription}{\Tresco}{}{}{}
+\cventry{\PExpeJuniorIOSDeveloperRange}{\PExpeJuniorIOSDeveloperDescription}{\Tresco}{}{}{}
+
+% Languages
+\section{\LanguagesTitle}
+\cvitemwithcomment{\LanguagesSpanishSubTitle}{\LanguagesSpanishDescription}{}
+\cvitemwithcomment{\LanguagesEnglish}{\LanguagesEnglishSubTitle}{\LanguagesEnglishCertification}
+
+% Computer Skills
+\section{\SkillsTitle}
+\cvdoubleitem{\SkillsLanguagesSubTitle}{\SkillsLanguagesSubTitle} {\SkillsDatabasesSubTitle}{\SkillsDatabasesDescription}
+\cvdoubleitem{\SkillsDesignSubTitle}{\SkillsDesignDescription}{\SkillsProjectManagementSubTitle}{\SkillsProjectManagementDescription}
+\cvdoubleitem{\SkillsVersionControl}{\SkillsVersionDescription}{\SkillsCloudComputingTitle}{\SkillsCloudComputingDescription}
+\cvdoubleitem{\SkillsAutomatizationSubTitle}{\SkillsAutomatizationDescription}{\SkillsAPIsSubTitle}{\SkillsAPIsDescription}
+
+\break
+\section{\CertificationsTitle}
+\cventry{\CertificationsTTTProEssentialsRange}{\CertificationsTTTProEssentialsDescription}{\CertificationsTTTProEssentialsProvider}{\CertificationsTTTProEssentialsCertID}{\CertificationsTTTProEssentialsURL}{}
+\cventry{\CertificationsGraphRange}{\CertificationsGraphDescription}{\CertificationsGraphProvider}{\CertificationsGraphCertID}{\CertificationsGraphURL}{}
+\cventry{\CertificationsVersionControlRange}{\CertificationsVersionControlDescription}{\CertificationsVersionControlProvider}{\CertificationsVersionControlCertID}{\CertificationsVersionControlURL}{}
+\cventry{\CertificationsIntroIOSMobileRange}{\CertificationsIntroIOSMobileDescription}{\CertificationsIntroIOSMobileProvider}{\CertificationsIntroIOSMobileCertID}{\CertificationsIntroIOSMobileURL}{}
+\cventry{\CertificationsProficiencyRange}{\CertificationsProficiencyDescription}{\CertificationsProficiencyProvider}{\CertificationsProficiencyCertID}{\CertificationsProficiencyURL}{}
+\cventry{\CertificationsDiplomaRange}{\CertificationsDiplomaDescription}{\CertificationsDiplomaProvider}{\CertificationsDiplomaCertID}{\CertificationsDiplomaURL}{}
+\cventry{\CertificationsActivIOSRange}{\CertificationsActivIOSDescription}{\CertificationsActivProvider}{\CertificationsActivCertID}{\CertificationsActivURL}{}
+
+
+
+\section{\ProjectsTitle}
+
+\cventry{\ProjectsTUDNRange}{\ProjectsTUDNTitle}{\ProjectsTUDNSubTitle}{\ProjectsTUDNRole}{\ProjectsTUDNURL }{\ProjectsTUDNDescription}
+
+\cventry{\ProjectsADomicilioRange}{\ProjectsADomicilioTitle}{\ProjectsADomicilioSubTitle}{\ProjectsADomicilioRole}{\ProjectsADomicilioURL}{\ProjectsADomicilioDescription}
+
+\cventry{\ProjectsDaimlerRange}{\ProjectsDaimlerTitle}{\ProjectsDaimlerSubTitle}{\ProjectsDaimlerRole}{\ProjectsDaimlerURL}{\ProjectsDaimlerDescription}
+
+\cventry{\ProjectsArabelaRange}{\ProjectsArabelaTitle}{\ProjectsArabelaSubTitle}{\ProjectsArabelaRole}{\ProjectsArabelaURL}{\ProjectsArabelaDescription}
+
+\cventry{\ProjectsTeikitRange}{\ProjectsTeikitTitle}{\ProjectsTeikitSubTitle}{\ProjectsTeikitRole}{\ProjectsTeikitURL}{\ProjectsTeikitDescription}
+
+\cventry{\ProjectsRosewoodRange}{\ProjectsRosewoodTitle}{\ProjectsRosewoodSubTitle}{\ProjectsRosewoodRole}{\ProjectsRosewoodURL}{\ProjectsRosewoodDescription}
+
+\cventry{\ProjectsPMITrackingRange}{\ProjectsPMITrackingTitle}{\ProjectsPMITrackingSubTitle}{\ProjectsPMITrackingRole}{\ProjectsPMITrackingURL}{\ProjectsPMITrackingDescription}
+
+\cventry{\ProjectsDiphsaRange}{\ProjectsDiphsaTitle}{\ProjectsDiphsaSubTitle}{\ProjectsDiphsaRole}{\ProjectsDiphsaURL}{\ProjectsDiphsaDescription}
+
+\cventry{\ProjectsFemsaRange}{\ProjectsFemsaTitle}{\ProjectsFemsaSubTitle}{\ProjectsFemsaRole}{\ProjectsFemsaURL}{\ProjectsFemsaDescription}
+
+\cventry{\ProjectsPMIRutaRange}{\ProjectsPMIRutaTitle}{\ProjectsPMIRutaSubTitle}{\ProjectsPMIRutaRole}{\ProjectsPMIRutaURL}{\ProjectsPMIRutaDescription}
+
+\cventry{\ProjectsConfidenzaRange}{\ProjectsConfidenzaTitle}{\ProjectsConfidenzaSubTitle}{\ProjectsConfidenzaRole}{\ProjectsConfidenzaURL}{\ProjectsConfidenzaDescription}
+
+\cventry{\ProjectsMVSRange}{\ProjectsMVSTitle}{\ProjectsMVSSubTitle}{\ProjectsMVSRole}{\ProjectsMVSURL}{\ProjectsMVSDescription}
+
+\cventry{\ProjectsRadioFormulaRange}{\ProjectsRadioFormulaTitle}{\ProjectsRadioFormulaSubTitle}{\ProjectsRadioFormulaRole}{\ProjectsRadioFormulaURL}{\ProjectsRadioFormulaDescription}
+
+
+\section{\ExtraCurricularTitle}
+\cvlistitem{\ExtraCurricularTripoli}
+\cvlistitem{\ExtraCurricularParaLaMaga}
+\cvlistitem{\ExtraCurricularLuthier}
+\end{document}
